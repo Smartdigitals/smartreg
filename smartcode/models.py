@@ -7,7 +7,7 @@ class Myreg(models.Model):
     fname = models.CharField(max_length=200)
     lname = models.CharField(max_length=200)
     gender = models.CharField(max_length=200)
-    whatsapp = models.IntegerField()
+    whatsapp = models.BigIntegerField()
     location = models.CharField(max_length=200)
     email = models.EmailField(max_length=200)
 
