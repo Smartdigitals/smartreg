@@ -7,3 +7,6 @@ from django.http import HttpResponse
 
 def index(request):
     return render(request, 'smartcode/index.html')
+
+def message(request):
+    return render(request, 'smartcode/message.html')
