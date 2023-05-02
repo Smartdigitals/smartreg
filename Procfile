@@ -1,0 +1,1 @@
+web gunicorn smartreg.wsgi:application --log-file -
