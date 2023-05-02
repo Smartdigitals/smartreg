@@ -6,4 +6,4 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse("Registration page")
+    return render(request, 'smartcode/index.html')
